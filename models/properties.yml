@@ -1,0 +1,21 @@
+sources:
+  - name: "prasanna's sources"
+    database: PRASANNADB
+    schema: SC_ECOMM
+    tables:
+      - name: USERS1
+
+
+models:
+  - name: "prasanna2"
+    config:
+      materialized: 'table'
+  - name: "prasanna"
+    config:
+      materialized: 'view'
+  - name: "users_v2"
+    config:
+      materialized: 'table'
+  - name: "users_v3"
+    config: 
+      materialized: 'view'

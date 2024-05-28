@@ -1,4 +1,2 @@
 name: "dbt_first_project"
-model-paths: ["sql_models"]
-models: 
-  materialized: "table"
+model-paths: ["models"]
